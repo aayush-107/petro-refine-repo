@@ -1,0 +1,134 @@
+/* aa code Reset default browser styles no chai*/
+body, figure, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/*aa code Global styles no chai*/
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/*aa code Header styles no chai*/
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* aa code Main styles no chai*/
+.hero {
+  background-color: #13c2b3;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.features ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.features ul li {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.features ul li img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+/*aa code Contact styles no chai*/
+.contact form {
+  margin-top: 40px;
+}
+
+.contact form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.contact form button:hover {
+  background-color: #555;
+}
+
+/*aa code Footer styles no chai*/
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}

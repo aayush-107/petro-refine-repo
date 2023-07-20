@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Paterolum Refinery System - Refinery Details</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header>
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="refinery.php">Refineries</a></li>
+        <li><a href="contact.php">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Refinery details section -->
+    <section class="refinery-details">
+      <div class="container">
+        <h1><?php echo $refineryDetails['name']; ?></h1>
+        <p><?php echo $refineryDetails['description']; ?></p>
+
+        <h2>Refinery Information</h2>
+        <ul>
+          <li><strong>Location:</strong> <?php echo $refineryDetails['location']; ?></li>
+          <li><strong>Capacity:</strong> <?php echo $refineryDetails['capacity']; ?> barrels per day</li>
+          <li><strong>Products:</strong> <?php echo $refineryDetails['products']; ?></li>
+        </ul>
+
+        <h2>Refinery Image</h2>
+        <img src="images/refinery-image.jpg" alt="Refinery Image">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Footer content -->
+    <div class="container">
+      <p>&copy; <?php echo date("Y"); ?> Paterolum Refinery System. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
